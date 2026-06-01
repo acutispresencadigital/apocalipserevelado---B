@@ -78,7 +78,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ faq, index }) => {
 };
 
 export default function App() {
-  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes
+  const [timeLeft, setTimeLeft] = useState(600); // 10 minutes
 
   useEffect(() => {
     const timer = setInterval(() => {
